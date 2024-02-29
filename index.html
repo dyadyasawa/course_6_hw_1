@@ -267,8 +267,8 @@
         </header>
 
         <main class="row">
-            <div class="row text-center">
-                <div class="col-4">
+            <div class="row">
+                <div class="col-4 text-center">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
                             <h4 class="my-0 fw-normal">Товар 1</h4>
@@ -281,11 +281,77 @@
                                 Email support,
                                 Help center access
                             </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+                            <button type="button" class="w-100 btn btn-lg btn btn-success">Купить</button>
                         </div>
                     </div>
                 </div>
+
+                        <div class="col-8">
+                            <form>
+                                  <div class="mb-3">
+                                      <label for="exampleInputEmail1" class="form-label">Имя</label>
+                                      <input type="text" class="form-control">
+
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                  </div>
+
+                                  <button type="submit" class="btn btn-primary">Отправить</button>
+                            </form>
+                        </div>
             </div>
+
+            <div class="row">
+                <div class="col-2">
+                        <p>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            Как купить?
+                          </button>
+                        </p>
+                        <div style="min-height: 120px;">
+                          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                            <div class="card card-body" style="width: 300px;">
+                              Текст с пояснениями(как?).
+                            </div>
+                          </div>
+                        </div>
+                </div>
+
+                <div class="col-2">
+                        <p>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample">
+                            Где купить?
+                          </button>
+                        </p>
+                        <div style="min-height: 120px;">
+                          <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+                            <div class="card card-body" style="width: 300px;">
+                              Текст с пояснениями(где?).
+                            </div>
+                          </div>
+                        </div>
+                </div>
+
+                <div class="col-2">
+                        <p>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+                            Почему купить?
+                          </button>
+                        </p>
+                        <div style="min-height: 120px;">
+                          <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                            <div class="card card-body" style="width: 300px;">
+                              Текст с пояснениями(почему?).
+                            </div>
+                          </div>
+                        </div>
+                </div>
+
+            </div>
+
         </main>
 
     </div>
